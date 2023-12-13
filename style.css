@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     justify-content: center;
 }
@@ -79,7 +79,7 @@ footer {
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 2% 0%;
+    padding: 1% 0%;
     margin: 0px;
 }
 
@@ -105,8 +105,8 @@ footer > p {
     }
 }
 
-@media (min-width: 950px) {
-     .full-img {
-         width: 70%;
-     }
+@media (min-width: 900px) {
+    .full-img {
+        width:  65%;
+    }
 }

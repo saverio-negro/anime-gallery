@@ -4,9 +4,10 @@
 <p>Image by <a href="https://www.freepik.com/search?format=search&last_filter=query&last_value=anime&query=anime">Freepik</a></p>
 
 <p>Anime Gallery is a simple project that shows a gallery of anime characters and landscapes.</p>
-<p>Go take a look at the project, and make sure to click on each image to pop it up.</p>
 
 <p>Because of me being a huge fun of Anime and Japan, they inspired me towards building this project. 🏯🇯🇵</p>
+
+<p>Go take a look at the project, and make sure to click on each image to pop it up.</p>
 
 <p>I hope you enjoy it! 🙂</p>
 

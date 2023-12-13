@@ -1,0 +1,98 @@
+@import url('./css/tanker.css');
+
+body {
+    background-color: rgb(0, 169, 255, 0.15); 
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: rgb(0, 169, 255, 0.15); 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Tanker-Regular', sans-serif;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.credit {
+    width: 100%;
+}
+
+.credit > p {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.gallery {
+    background-color: rgb(0, 169, 255, 0.15); 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0px;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: solid 2px;
+}
+
+.modal {
+   background-color: rgb(0, 169, 255, 0.4); 
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 100vw;
+   height: 100vh;
+   opacity: 0;
+   pointer-events: none;
+   transition: all 0.5s ease-in-out;
+}
+
+.full-img {
+    position: absolute;
+    width: 80%;
+    top: 25%;
+    left: 9%;
+    transition: all 0.5s ease-in-out;
+    transform: scale(0.5);
+}
+
+footer {
+    background-color: rgb(0, 169, 255, 0.15); 
+    display: flexbox;
+    width: 100%;
+    height: auto;
+    padding: 4% 0%;
+    margin: 0px;
+}
+
+footer > p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.modal.open {
+    opacity: 1;
+    pointer-events: fill;
+}
+
+.full-img.open {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.0);
+}
+

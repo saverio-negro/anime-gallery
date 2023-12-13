@@ -6,7 +6,7 @@ smallImages.forEach((smallImage) => {
     smallImage.addEventListener("click", (e) => {
         smallImageNumber = e.target.title
         fullImage.src = `./images/large/large_${smallImageNumber}.jpg`
-        setTimeout(() => {modal.setAttribute("class", "modal open")}, 300)
+        setTimeout(() => {modal.setAttribute("class", "modal open")}, 200)
         fullImage.setAttribute("class", "full-img open")
     })
 })

@@ -65,7 +65,7 @@ h1 {
 .full-img {
     position: absolute;
     width: 80%;
-    top: 25%;
+    top: 15%;
     left: 9%;
     transition: all 0.5s ease-in-out;
     transform: scale(0.5);

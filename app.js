@@ -13,6 +13,7 @@ smallImages.forEach((smallImage) => {
 
 modal.addEventListener("click", (e) => {
     if (e.target.classList.contains("modal")) {
+        fullImage.classList.remove("open")
         modal.classList.remove("open")
     }
 })

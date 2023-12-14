@@ -6,12 +6,13 @@ smallImages.forEach((smallImage) => {
     smallImage.addEventListener("click", (e) => {
         smallImageNumber = e.target.title
         fullImage.src = `./images/large/large_${smallImageNumber}.jpg`
-        setTimeout(() => {modal.setAttribute("class", "modal open")}, 100)
-        fullImage.setAttribute("class", "full-img open")
+        setTimeout(() => {modal.classList.add("open")}, 100)
+        fullImage.classList.add("open")
     })
 })
 
-modal.addEventListener("click", () => {
-    modal.setAttribute("class", "modal")
-    fullImage.setAttribute("class", "full-img")
+modal.addEventListener("click", (e) => {
+    if (e.target.className.includes("modal")) {
+        modal.classList.remove("open")
+    }
 })
